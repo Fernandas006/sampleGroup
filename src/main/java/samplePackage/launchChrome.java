@@ -13,7 +13,7 @@ public class launchChrome {
 		
 		//driver.findElement(By.className("//span[@class='hidden-xs hidden-sm hidden-md' and contains(text(),'Currency')]")).click();
 		//driver.findElement(By.xpath("//button[@data-toggle='dropdown' and @class='btn btn-link dropdown-toggle']")).click();
-		driver.findElement(By.cssSelector("#form-currency button[class='btn btn-link dropdown-toggle']")).click();
+		//driver.findElement(By.cssSelector("#form-currency button[class='btn btn-link dropdown-toggle']")).click();
 		driver.findElement(By.cssSelector("#top-links i[class='fa fa-phone']")).click();
 		}
 
